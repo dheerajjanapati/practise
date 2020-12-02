@@ -8,9 +8,12 @@ public class login {
 	@Test
 	public void verify()
 	{
-		WebDriver driver=new ChromeDriver();
-		driver.get("http://facebook.com");
-		
+      System.out.println("login");		
+	}
+	@Test
+	public void logout()
+	{
+		System.out.println("logout");
 	}
 
 }
